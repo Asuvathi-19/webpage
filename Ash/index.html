@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Paradise</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #495057;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+        }
+
+        nav a:hover {
+            background-color: #6c757d;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1500x600');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+        }
+
+        .content {
+            padding: 2rem;
+        }
+
+        .content h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .services {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 0.5rem;
+        }
+
+        .card h3 {
+            margin: 1rem 0 0.5rem;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        .footer a {
+            color: #ffdd57;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Hotel Paradise</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Experience Luxury Like Never Before</h1>
+        <p>Relax and unwind at Hotel Paradise, your dream destination.</p>
+    </div>
+    <div class="content" id="about">
+        <h2>About Us</h2>
+        <p>Hotel Paradise is a premier destination for travelers seeking luxury and comfort. Located in the heart of the city, we offer top-notch amenities and unparalleled hospitality.</p>
+    </div>
+    <div class="content" id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/1225828191/photo/room-service-breakfast-tray-in-hotel-room.jpg?s=612x612&w=0&k=20&c=Ojfh-7i7CaiLtgReNBpw-AUMABPMK6Owv8u9X0CPWaA=">
+                <h3>Room Service</h3>
+                <p>Enjoy 24/7 room service to make your stay more comfortable.</p>
+            </div>
+            <div class="card">
+                <img src="https://img.freepik.com/free-photo/beautiful-luxury-hotel-swimming-pool-resort_74190-3842.jpg?semt=ais_hybrid" alt="Swimming Pool">
+                <h3>Swimming Pool</h3>
+                <p>Relax and refresh in our luxurious swimming pool.</p>
+            </div>
+            <div class="card">
+                <img src="https://thumbs.dreamstime.com/b/image-shows-chef-carefully-plating-gourmet-dish-professional-kitchen-setting-perfect-articles-fine-dining-329684117.jpg" alt="Fine Dining">
+                <h3>Fine Dining</h3>
+                <p>Experience world-class dining at our in-house restaurant.</p>
+            </div>
+        </div>
+    </div>
+    <div class="content" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@hotelparadise.com</p>
+        <p>Phone: +123-456-7890</p>
+        <p>Address: 123 Paradise Road, Dream City</p>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 Hotel Paradise. All Rights Reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
